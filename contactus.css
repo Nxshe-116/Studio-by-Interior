@@ -1,0 +1,123 @@
+*{
+    margin: 5;
+    padding: 5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between ;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    background: #fbfbff;
+    
+}
+.left-side{
+    display: flex;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-side div{
+    display: inline-block;/*applies space between the link in the navigation bar*/
+    justify-content: space-between;/*applies space between the flexed elements an int this case the right and left classes*/
+    margin: 10px;
+    
+}
+.right-side a{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    transition: color 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-side a:hover{
+    color: black;
+    transition: color 0.05s;
+}
+
+.map-box{
+    
+    height: 13cm;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.map-box img{
+    height: 13cm;
+    width: 100%;
+    opacity: 30%;
+}
+
+.text{
+    position: absolute;
+    top: 170px;
+    left: 130px;
+    font-weight:bold ;
+}
+
+.contact-form{
+    display: flex;
+    position: relative;
+    left: -45px;
+}
+
+.message{
+    background-color: #e1f0c4;
+    height: 10cm;
+    width: 15cm;
+    position: relative;
+    top: -100px;
+    left: 14%;
+    padding-left: 30px;
+}
+
+.contact-details{
+    background-color: #acbd8a;
+    height: 10cm;
+    width: 10cm;
+    position: relative;
+    top: -100px;
+    left: 14%; 
+    padding-left: 30px;
+}
+
+input{
+    border: none;
+    width: 400px;
+    height: 30px;
+    
+}
+
+button{
+    position: relative;
+    top: 30px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background:rgb(10, 10, 10);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.socialmedia img{
+    height: 20px;
+    width: 20px;
+}
+
+.contact-details img{
+    height: 20px;
+    width: 20px;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+
